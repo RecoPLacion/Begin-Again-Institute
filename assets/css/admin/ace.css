@@ -1,0 +1,5 @@
+#customCSS{margin-bottom: 30px;}
+#customJS{margin-top: 5px;}
+#customCSS, #customJS{position: relative;height: 300px;width: 100%;}
+#save-custom-css-form .form-table th,#save-custom-js-form .form-table th{display: none;}
+#save-custom-css-form .form-table td,#save-custom-js-form .form-table td{padding: 0;}
