@@ -73,7 +73,7 @@ get_header();
                                 <?php endif; ?>
                             </div>
                             <h3 class="our-team-list-name">
-                                <?php the_title(); ?>,<br>
+                                <?php the_title(); ?><br>
                                 <span><?php the_field('degree'); ?></span>
                             </h3>
                             <p class="our-team-list-pos"><?php the_field('position'); ?></p>
@@ -121,7 +121,7 @@ get_header();
                                 <?php endif; ?>
                             </div>
                             <h3 class="our-team-list-name">
-                                <?php the_title(); ?>,<br>
+                                <?php the_title(); ?><br>
                                 <span><?php the_field('degree'); ?></span>
                             </h3>
                             <p class="our-team-list-pos"><?php the_field('position'); ?></p>
@@ -169,7 +169,7 @@ get_header();
                                 <?php endif; ?>
                             </div>
                             <h3 class="our-team-list-name">
-                                <?php the_title(); ?>,<br>
+                                <?php the_title(); ?><br>
                                 <span><?php the_field('degree'); ?></span>
                             </h3>
                             <p class="our-team-list-pos"><?php the_field('position'); ?></p>

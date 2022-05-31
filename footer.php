@@ -67,7 +67,7 @@ $copyright = esc_attr( get_option( 'copyright_url' ) );
 							?>
 						</div>
 						<div class="bai-nav-footer-wrapper">
-							<h5>Other Programs</h5>
+							<h5>Our Programs</h5>
 							<?php
 								wp_nav_menu(array(
 									'theme_location' => 'third',

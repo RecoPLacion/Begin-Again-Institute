@@ -68,7 +68,7 @@
 						'menu_class' => '',
 						'fallback_cb' => '__return_false',
 						'items_wrap' => '<ul id="%1$s" class="header-nav-list">%3$s</ul>',
-						'depth' => 2,
+						'depth' => 3,
 						'walker' => new bootstrap_5_wp_nav_menu_walker()
 					));
 					?>

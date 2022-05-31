@@ -50,8 +50,10 @@ $(window).scroll(function(){
 
     if (scroll >= 100) {
         sticky.addClass('fixed');
+        $('body').addClass('is-fixed');
     } else {
         sticky.removeClass('fixed');
+        $('body').removeClass('is-fixed');
     }
     
 });
@@ -91,8 +93,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if($(this).scrollTop() > 100) {
             $('.scroll-top').addClass('fixed');
+            
         }else {
             $('.scroll-top').removeClass('fixed');
+            
         }
     });
 
@@ -125,4 +129,23 @@ $('.feat-list .feat-link').on('click',function(){
 $('.intensive-modal-toggle').on('click', function(e) {
     e.preventDefault();
     $('.intensive-modal').toggleClass('is-visible');
+});
+
+// Accordion Result page
+$(function() {
+    $('.result-accordion-title').click(function(j) {
+      
+    var dropDown = $(this).closest('.result-accordion-card').find('.result-accordion-panel');
+        $(this).closest('.result-accordion-wrapper').find('.result-accordion-panel').not(dropDown).slideUp();
+        
+        if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        } else {
+        $(this).closest('.result-accordion-wrapper').find('.result-accordion-title.active').removeClass('active');
+        $(this).addClass('active');
+        }
+        
+        dropDown.stop(false, true).slideToggle();
+        j.preventDefault();
+    });
 });
