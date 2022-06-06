@@ -52,6 +52,13 @@
 
 <!-- header -->
 <header class="header">
+	<div class="top-header">
+		<div class="container">
+			<div class="top-header-wrapper">
+				<a href="tel:7207024608">Call Now: 720.702.4608</a>
+			</div>
+		</div>
+	</div>
 	<div class="header-nav">
 		<div class="container">
 			<div class="header-wrapper">

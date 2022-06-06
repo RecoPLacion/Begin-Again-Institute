@@ -107,7 +107,7 @@ $copyright = esc_attr( get_option( 'copyright_url' ) );
 				<div class="col-md-6">
 					<div class="bai-iln-wrapper">
 						<div class="bai-iln-logo">
-							<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/05/iln_logo-white.png" alt="">
+							<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/06/ILN_Logo_Main_white.png" alt="">
 						</div>
 						<h4>
 							Begin Again Institute is a part of Integrative Life Network
@@ -143,7 +143,8 @@ $copyright = esc_attr( get_option( 'copyright_url' ) );
 		<div class="intensive-modal-wrapper intensive-modal-transition">
 		<div class="intensive-modal-header">
 			<button class="intensive-modal-close intensive-modal-toggle"><i class="fa-solid fa-xmark"></i></button>
-			<h2 class="intensive-modal-heading">Register Now for Intensive Programs</h2>
+			<h2 class="intensive-modal-heading">Inquire About our Intestive Programs</h2>
+			<p>Let's talk! Complete the information below and one of admission specialists will reach out.</p>
 		</div>
 		
 		<div class="intensive-modal-body">
